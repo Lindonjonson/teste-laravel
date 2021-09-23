@@ -12,11 +12,11 @@
 
 ## Sobre o Módulo de notícias
 ### Opções de listar as notícias existentes, ativar notícia, criar, editar, deletar
-### Salvar título, data, imagem, conteúdo (incluir ckeditor para esse campo), se ativa ou não
+### Salvar título, data, imagem, conteúdo, se ativa ou não
 ### OBS1.: Notícia ser salva por default como desativada
 
 ## Caso não consiga concluir o teste, envie mesmo assim o que você conseguiu implementar
-## O que colocar de adiconal, será bem vindo e avaliado!
+## O que colocar de adicional, será bem vindo e avaliado!
 
 ## Link para documentação do Laravel: https://laravel.com/docs/7.x
 
