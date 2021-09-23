@@ -7,7 +7,7 @@
 ### Faça os commits das funcionalidades implementadas para essa branch
 
 ## Descrição
-### Criar um módulo admin, usando adminlte para as views do admin, 
+### Criar um módulo admin
 ### O admin deverá ter autenticação de usuário, módulo de notícias
 
 ## Sobre o Módulo de notícias
