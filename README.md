@@ -18,5 +18,7 @@
 ## Caso não consiga concluir o teste, envie mesmo assim o que você conseguiu implementar
 ## O que colocar de adiconal, será bem vindo e avaliado!
 
+## Link para documentação do Laravel: https://laravel.com/docs/7.x
+
 ## Boa sorte!
 
