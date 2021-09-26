@@ -22,7 +22,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::prefix('v1')->namespace('App\\Http\\Controllers\\Api\\')->group(function(){
     Route::post('login', 'Auth\\LoginJwtController@login')->name('login');
     Route::get('logout', 'Auth\\LoginJwtController@logout')->name('logout');
-
+    Route::get('public','PostController@public');
     Route::group(['middleware'=> ['jwt.auth']], function(){
         Route::name('posts')->group(function(){
             Route::resource('posts', 'PostController');

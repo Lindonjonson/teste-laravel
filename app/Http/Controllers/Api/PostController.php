@@ -12,6 +12,15 @@ class PostController extends Controller
         $this->post = $post;
     }
 
+    public function public()
+    {
+        $post = $this->post->all();
+
+
+       // $post = $this->post->paginate('10'); //pegando apenas os 10 primeiros
+        return response()->json($post, 200);
+    }
+
     public function index()
     {
        // $post = $this->post->all();
