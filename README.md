@@ -1,6 +1,8 @@
-Faça download da api 
-crie o DB_DATABASE : noticiasagora
-rode php artisan migrate:refresh --seed
+## Faça download da api 
+
+## crie o DB_DATABASE : noticiasagora
+## rode php artisan migrate:refresh --seed
+## 
 
 
 
