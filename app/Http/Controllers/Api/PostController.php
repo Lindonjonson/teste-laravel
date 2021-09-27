@@ -14,7 +14,7 @@ class PostController extends Controller
 
     public function public()
     {
-        $post = $this->post->all();
+        $post = $this->post::orderBy('created_at', 'desc')->get();
 
 
        // $post = $this->post->paginate('10'); //pegando apenas os 10 primeiros
@@ -25,7 +25,7 @@ class PostController extends Controller
     {
        // $post = $this->post->all();
         $post = auth('api')->user()->post;
-
+        
 
        // $post = $this->post->paginate('10'); //pegando apenas os 10 primeiros
         return response()->json($post, 200);
